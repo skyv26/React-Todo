@@ -1,0 +1,8 @@
+.Container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: salmon;
+    padding: 2rem;
+    row-gap: 2rem;
+    justify-items: center;
+}

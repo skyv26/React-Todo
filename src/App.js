@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import TodoListData from "./components/TodoListData/TodoListData";
+import TodoHeader from "./components/TodoHeader/TodoHeader";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <Fragment>
+            <TodoHeader />
+            <TodoListData />
+        </Fragment>
+    );
+};
 
 export default App;

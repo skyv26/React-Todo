@@ -1,0 +1,53 @@
+.Card {
+    border: 1px solid;
+    border-top: 5px solid;
+    width: 17rem;
+    height: auto;
+    position: relative;
+}
+
+.CardTitle {
+    display: inline-block;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.CardBody {
+    position: relative;
+    font-size: 0.9rem;
+    line-height: 1.75;
+}
+
+.CardText{
+    padding: 0.2rem;
+}
+
+.TodoUtility{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.UtilityBtn{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 0.2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.CardDate{
+    font-size: .8rem;
+    margin-top: -0.25rem;
+}
+
+.UtilityBtn:hover,
+.UtilityBtn i:hover{
+    opacity: 1 !important;
+    color: black !important;
+    cursor: pointer;
+}
+
